@@ -1,0 +1,29 @@
+{
+  "name": "shelterapi",
+  "version": "1.0.0",
+  "description": "Restful Service providing doggy based locational information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlwagner7/ShelterApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "Api"
+  ],
+  "author": "Matthew Wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlwagner7/ShelterApi/issues"
+  },
+  "homepage": "https://github.com/mlwagner7/ShelterApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
