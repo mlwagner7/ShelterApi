@@ -7,6 +7,14 @@ exports.ExecuteQuery = (query, callback) => {
     client.connect();
 
     client.query(query)
-        .then(res => callback(res.rows))
-        .catch(e => callback(e))    
+        .then(res => { 
+            callback(res.rows);
+            client.end();
+        })
+        .catch(e => { 
+            callback(e);
+            client.end();
+        })    
+
+    
 }
