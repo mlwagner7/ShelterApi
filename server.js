@@ -1,6 +1,6 @@
 var expressServer = require('express')
 var app = expressServer();
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 var bodyParser = require('body-parser');
 
 var dbCreation = require('./Setup/Database/Database.js');
